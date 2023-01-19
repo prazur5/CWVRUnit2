@@ -892,7 +892,7 @@ RectTransform:
   m_GameObject: {fileID: 339375310}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1.25, z: 1}
+  m_LocalScale: {x: 16, y: 0.05, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 899473169}
@@ -900,7 +900,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -8.700012}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &339375312
@@ -917,7 +917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2645,7 +2645,7 @@ MonoBehaviour:
   m_CheckFor3DOcclusion: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 0
   m_RaycastTriggerInteraction: 1
 --- !u!114 &899473166
 MonoBehaviour:
@@ -2779,7 +2779,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 8848131633249631744, guid: eb91affb984e740dbb2082626ba96efb, type: 3}
+  m_ModelPrefab: {fileID: 0}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -2815,7 +2815,7 @@ MonoBehaviour:
       m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: b8995338-ec34-49a3-b891-0113bf9a145e
+      m_Id: d06a3721-d38f-4c77-8761-22d7ed9004df
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2839,7 +2839,7 @@ MonoBehaviour:
       m_Name: Select Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: e610e53c-62ed-40f4-8a75-9bcc5211f69e
+      m_Id: 17934527-65c0-41a8-873d-d75d40d3520f
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2863,7 +2863,7 @@ MonoBehaviour:
       m_Name: Activate Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: cad83736-c70e-4835-9fcb-b0744a0a0509
+      m_Id: 864d5bb2-d1d5-4e3e-bc08-97e476f352c8
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2887,7 +2887,7 @@ MonoBehaviour:
       m_Name: UI Press Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: f9200e47-34e2-4585-9e0f-790f92668ee5
+      m_Id: 21c11411-c915-4cf2-8bc6-d3c63288ef89
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2923,7 +2923,7 @@ MonoBehaviour:
       m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 314849a4-d019-4f94-864c-cf64587ac723
+      m_Id: 7e4bf9c0-a95a-4758-965a-a28b45f0a058
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -4430,7 +4430,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 7111071080452410799, guid: a2e8ee2005c074447b929af42b7f5068, type: 3}
+  m_ModelPrefab: {fileID: 0}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -6423,8 +6423,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
+  m_IgnoreReversedGraphics: 0
+  m_BlockingObjects: 3
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
